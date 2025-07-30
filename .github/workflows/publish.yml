@@ -5,7 +5,7 @@ on:
     # only publish on version tags
     tags:
       - v*
-
+  workflow_dispatch:
 jobs:
   publish:
     runs-on: ubuntu-latest
